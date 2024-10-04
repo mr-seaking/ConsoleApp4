@@ -1,5 +1,4 @@
 ﻿using System;
-//using System.ComponentModel.Design;
 
 class Program
 {
@@ -20,8 +19,7 @@ class Program
         {
             newArray[i] = array[i];     
         }
-        //array = newArray;
-        //Console.WriteLine(newArray.Length);
+        
         Num_enter(ref newArray, array.Length);
     }
     static void Num_enter(ref int[] myArray, int i)
