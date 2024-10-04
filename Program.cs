@@ -6,7 +6,7 @@ class Program
     static void Main()
     {
         
-        int[] myArray = new int[01];
+        int[] myArray = new int[0];
         
         Num_enter(ref myArray, myArray.Length);
         
